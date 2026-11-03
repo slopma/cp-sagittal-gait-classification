@@ -1,0 +1,19 @@
+# Datos clínicos: nunca se versionan
+derivatives/
+
+# Revisión interna temporal
+REVISION_TEMPORAL.md
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Residuos de compilación LaTeX
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.fls
+docs/*.fdb_latexmk
+docs/*.synctex.gz
